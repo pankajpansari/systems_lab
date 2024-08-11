@@ -1,0 +1,3 @@
+It exits without printing anything. The `0` argument to `exit` means that the program exits ''normally''; exit statuses other than 0 are typically used for errors. See the [manual](https://man7.org/linux/man-pages/man3/exit.3.html) for `exit` for more information—but don’t worry if that manual page seems too detailed or overwhelming! Skimming reference material to extract the information you need is an important programming skill that we hope you’ll learn through practice.
+
+Note that in C++, `#include <cstdio>` provides access to the C standard I/O library. In C, this would be written `#include <stdio.h>`, but `#include <cstdio>` is more idiomatic in C++.
